@@ -1,7 +1,7 @@
 Welcome to the world of web enchantment! This project is your portal to a digital masterpiece. Let's embark on a journey of creativity and innovation together.
 
-***Don't Commit in the same repo clone and commit in your own repo
-***
+***Don't Commit in the same repo clone and commit in your own repo***
+
 ## 📄 Overview
 
 This repo is more than just lines of code; it's a canvas for ideas, a fusion of art and technology. Dive into the web's magic, explore, and watch your vision come to life.
