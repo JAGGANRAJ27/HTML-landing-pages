@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lily+Script+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --color-primary: #8F6F62;
+    --color-secondary: #3D1A0C;
+    --color-tertiary: #C29B62;
+    --color-black: #000000;
+    --color-light-white: #F7F7F8;
+    --color-background: #F3EFEC;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-black);
+    background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+    color: var(--color-secondary);
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 25px 50px;
+    color: var(--color-secondary);
+    background-color: var(--color-tertiary);
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+#bb
+{
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+}
+#bb:hover
+{
+    color: var(--color-light-white);
+}
+a:hover {
+    color: var(--color-tertiary);
+}
+
+#logo>* {
+    font-family: "Lily Script One", system-ui;
+}
+
+#nav {
+    padding: 40px;
+    border-bottom: 2px solid var(--color-tertiary);
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--color-secondary);
+    font-size: 20px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#main {
+    margin: 70px 0px;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-main>h1 {
+    font-size: 80px;
+
+}
+
+.right-main>h3 {
+    font-size: 42px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+#clean {
+    position: absolute;
+    bottom: 40%;
+    height: 80px;
+    opacity: 0.2;
+}
+#clean1 {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    height: 80px;
+    opacity: 0.2;
+}
+
+#tea {
+    height: 40px;
+}
+.para2
+{
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+}
+.coffeeright {
+    background: url("./img/coffee1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 300px 150px 100px 100px;
+    position: absolute;
+    right: 25%;
+    bottom: 35%;
+}
+.coffeeleft {
+    background: url("./img/bread1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 100px 200px 100px;
+    position: absolute;
+    left: 34%;
+    top: 25%;
+}
+.mainimg
+{
+    background: url("./img/bread2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    border-radius: 200px 200px 20px 20px;
+    position: absolute;
+    bottom: 10%;
+}
+
+@media only screen and (max-width: 1020px) {
+
+    #menu,
+    #icons {
+        display: none;
+    }
+}
